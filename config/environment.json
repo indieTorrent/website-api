@@ -1,0 +1,11 @@
+{
+  "local":{
+    "connectionString": "mongodb://localhost:27017"
+  },
+  "development":{
+    "connectionString": "mongodb://localhost:27017"
+  },
+  "production":{
+    "connectionString": "mongodb://localhost:27017"
+  }
+}
