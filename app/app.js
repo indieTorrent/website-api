@@ -1,3 +1,4 @@
+// @flow
 import express from "express";
 import fs from "fs";
 import https from "https";
@@ -30,6 +31,6 @@ app.use(async (req, res) => {
 
 https
     .createServer(options, app)
-    .listen(3334, async () => {
+    .listen("3334", async () => {
         await console.log("HTTPS listening on port 3334");
     });
